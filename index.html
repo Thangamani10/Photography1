@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="styleSheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <div class="logo">
+                <img src="./image.jpg">
+                <a href="">Shadow Photography</a>
+            </div>
+            <div class="side">
+                <a href="">Home</a>
+                <a href="">About</a>
+                <a href="">Contact</a>
+                <a href="./logindex.html">Login</a>
+                <a href="./logindex.html">Sign up</a>
+
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Capture life's moments with our photography services, <br><span>showcasing your story through stunning imagery</span></h1>
+        <img src="./bgimagecontainer-removebg-preview.png">
+        <button><i class="fa-solid fa-magnifying-glass"></i><input placeholder="search here" style="height: 30px;"></button>
+    </div>
+    <div class="card">
+        <i class="fa-solid fa-angles-left"></i>
+        <div class="card1">
+            <img src="https://i0.wp.com/iglowstudioz.com/wp-content/uploads/2024/05/1-6.webp?w=1920&ssl=1">
+            <h1>Wedding PhotoShoot</h1>
+            <p>Lorem ipsum dolor sit, amet  <br><span>consectetur adipisicing elit. Magnam, cumque.</span></p>
+            <button><a href="./wedding/index.html">View More</a></button>
+        </div>
+        <div class="card2">
+            <img src="./Pre-Birthday-Photoshoot-Hyderabad-027352.jpg">
+            <h1>BirthDay PhotoShoot</h1>
+            <p>Lorem ipsum dolor sit, amet <br><span>consectetur adipisicing elit. Magnam, cumque.</span></p>
+            <button><a href="./birthday/index.html">View More</a></button>
+        </div>
+        <div class="card3">
+            <img src="./baby-photoshoot-20231206.jpg">
+            <h1>Baby PhotoShoot</h1>
+            <p>Lorem ipsum dolor sit, amet   <br><span>consectetur adipisicing elit. Magnam, cumque.</span></p>
+            <button><a href="./baby/index.html">View More</a></button>
+        </div>
+        <i class="fa-solid fa-angles-right" onclick="shown()"></i>
+    </div>
+    <div id="shown">
+        <div class="card4">
+            <img src="./puberty.jpg">
+            <h1>Puberty PhotoShoot</h1>
+            <p>Lorem ipsum dolor sit, amet <br><span>consectetur adipisicing elit. Magnam, cumque.</span></p>
+            <button><a href="">View More</a></button>
+        </div>
+        <div class="card5">
+            <img src="./engagement.jpg">
+            <h1>Engagement PhotoShoot</h1>
+            <p>Lorem ipsum dolor sit, amet <br><span>consectetur adipisicing elit. Magnam, cumque.</span></p>
+            <button><a href="">View More</a></button>
+        </div>
+        <div class="card6">
+            <img src="./pre-wedding.jpg">
+            <h1>Pre-Wedding PhotoShoot</h1>
+            <p>Lorem ipsum dolor sit, amet <br><span>consectetur adipisicing elit. Magnam, cumque.</span></p>
+            <button><a href="">View More</a></button>
+        </div>
+    </div>
+    <div class="contact">
+       <div class="address">
+        <i class="fa-solid fa-location-dot"></i>
+        <h1>Shadow Studio</h1>
+        <h3>No:D-1334/2</h3>
+        <h3>5th Street</h3>
+        <h3>Velachery</h3>
+        <h3>Chennai-600 130</h3>
+       </div>
+       <div class="follow">
+         <h1>Follow Us On</h1>
+         <i class="fa-brands fa-instagram"></i>
+         <i class="fa-brands fa-facebook"></i>
+         <i class="fa-brands fa-whatsapp"></i>
+       </div>
+       <div class="iframe">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.9667157842823!2d80.21652267490576!3d12.973980687341598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525d3154bf18fb%3A0x706bf6b0e2157ca9!2sLogin360!5e0!3m2!1sta!2sin!4v1725986719529!5m2!1sta!2sin"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style="height:110px;width:200px;"></iframe></iframe>
+       </div>
+    </div>
+    <script>
+         function shown() {
+            // Get the element by its ID
+            var content = document.getElementById("myContent");
+
+            // Check if the element is currently hidden
+            if (content.style.display === "none" || content.style.display === "") {
+                // Change display property to "block" to show the element
+                content.style.display = "";
+            }
+        }
+    </script>
+</body>
+</html>

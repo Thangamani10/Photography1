@@ -1,0 +1,62 @@
+.login{
+    display: grid;
+    border:1px solid black;
+    width:300px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    animation-name: animation;
+    animation-duration: 10s;
+}
+input{
+    margin-top: 10px;
+    border-radius: 10px;
+    width:220px;
+    height:25px
+}
+button{
+    border-radius: 10px;
+    width:220px;
+    height:30px
+}
+label{
+    margin-top: 25px;
+}
+.container{
+    display: flex;
+    margin-left: 400px;
+    margin-top: 100px;
+}
+.signup{
+    border:0.5px solid white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width:350px;
+    padding-left: 20px;
+    color: white;
+    padding: 20px;
+    background-color: black;
+    animation-name: animate;
+    animation-duration: 5s;
+}
+body{
+    background-color: whitesmoke;
+}
+/* @keyframes animate{
+    from{
+        margin-right: 0px;
+    }
+    to{
+        margin-left: 300px;
+    }
+}
+@keyframes animation{
+    from{
+        margin-left: 0px;
+    }
+    to{
+        margin-left: -500px;
+    }
+} */

@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    margin-left: 610px;
+    margin-top: 220px;
+    border: 1px solid #9EDF9C;
+    background-color: #9EDF9C;
+    width: 350px;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+.content{
+    margin-left: 630px;
+
+}
+.content h2{
+   margin-top: 10px;
+}
+.container h1{
+    margin-left: 18px;
+}
+.login input{
+    display: grid;
+    margin-top: 10px;
+}
+body{
+    background-image:url("../photo-1507525428034-b723cf961d3e.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a{
+    display:none ;
+}

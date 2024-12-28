@@ -1,0 +1,213 @@
+*{
+    margin:0px;
+
+    padding:0px
+}
+header{
+    position: sticky;
+    top:0px
+}
+.nav{
+    background-color: #740938;
+    
+}
+.nav a{
+    text-decoration: none;
+    color:white;
+    font-size: large;
+}
+.nav img{
+    height:50px;
+    width:50px;
+    border-radius:50%
+}
+.nav{
+    display:flex;
+   width:100%;
+   position: relative;
+   justify-content: space-between;
+}
+.logo{
+    margin-left:45px
+}
+.logo img{
+    margin-top:10px
+}
+.logo a{
+    margin-left: 10px;
+    position: relative;
+    top:-25px
+}
+.side{
+    position: relative;
+     left:-120px;
+     top:20px;
+    justify-content: space-around;
+
+}
+header .side{
+    justify-content: space-around;
+}
+.side a{
+    margin-left: 15px;
+    justify-content: space-around;
+}
+.container {
+    background-image: url("../bgimage.jpg");
+    background-repeat: no-repeat;
+    background-size:cover ;
+    height: 700px;
+}
+.container h1{
+    color:white;
+    margin-left:330px;
+    position: relative;
+    top:250px
+}
+.container img{
+    height:100px;
+    width:100px;
+    margin-left:1090px;
+    margin-top:460px
+}
+button{
+    color:white;
+}
+.container button{
+    position: relative;
+    top:-250px;
+    left: -650px;
+    width:300px;
+}
+.container input{
+    border: none;
+    width:250px;
+    margin-left:10px
+}
+.container i{
+    color:gray;
+    left:-3px
+}
+.container span{
+    margin-left: 20px;
+}
+.card{
+    display: flex;
+}
+.card button{
+    color:#525B44;
+}
+.card img{
+    height:350px;
+    width:350px;
+    border-radius: 10px;
+}
+.card p{
+    margin-left: 55px;
+}
+.card span{
+    margin-left: -22px;
+}
+.card i{
+    margin-top: 250px;
+    margin-left: 35px;
+    font-size: xx-large;
+}
+.card1{
+    width:350px;
+    height: 500px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    margin-left: 85px;
+}
+.card2{
+    width:350px;
+    height: 500px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    margin-left: 85px;
+
+}
+.card3{
+    width:350px;
+    height: 500px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    margin-left: 85px;
+
+}
+.card4{
+    width:350px;
+    height: 500px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    display: none;
+    margin-left: 85px;
+}
+.card5{
+    width:350px;
+    height: 500px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    margin-left: 85px;
+    display: none;
+}
+#shown{
+    display: none;
+    display: flex;
+}
+.card6{
+    width:350px;
+    height: 500px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    margin-left: 85px;
+    display: none;
+}
+.card h1{
+    margin-left: 30px;
+    margin-top: 25px;
+}
+.card a{
+    text-decoration: none;
+    color:grey;
+}
+.card button{
+    margin-left: 120px;
+    margin-top: 18px;
+    text-decoration: none;
+    color:grey;
+
+}
+.card{
+    margin:30px
+}
+
+.contact{
+    background-color: grey;
+    height:auto;
+    display: flex;
+    justify-content: space-around;
+}
+.address{
+    color:black;
+    margin-left: -100px;
+    padding: 20px;
+}
+.iframe{
+    margin-left: 350px;
+    margin-top: 20px;
+}
+.follow{
+    padding:30px
+}
+.follow i{
+    padding-left: 10px;
+    margin-top: 10px;
+}
